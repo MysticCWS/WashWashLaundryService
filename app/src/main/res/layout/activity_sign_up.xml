@@ -214,7 +214,7 @@
                 android:layout_below="@+id/register"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="20dp"
-                android:text="Don't have an account ?"
+                android:text="Already have an account? "
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
