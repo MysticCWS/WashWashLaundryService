@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    android:layout_marginTop="5dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgcheckout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/imgcheckout" />
+
+    <TextView
+        android:id="@+id/totalLaundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:hint="Total : RM 0.00"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/washerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalLaundry"
+        android:padding="6dp"
+        android:text="Washer  :"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/washerOption"
+        android:layout_toEndOf="@id/washerOption1"
+        android:layout_below="@+id/totalLaundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text ="NONE"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/dryerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/washerOption1"
+        android:padding="6dp"
+        android:text="Dryer     :"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/dryerOption"
+        android:layout_below="@+id/washerOption1"
+        android:layout_toEndOf="@id/dryerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="NONE"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/foldOption1"
+        android:layout_below="@id/dryerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Fold    :"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/foldOption"
+        android:layout_below="@+id/dryerOption1"
+        android:layout_toEndOf="@id/foldOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text ="NONE"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

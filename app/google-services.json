@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "853527211626",
+    "firebase_url": "https://washwashlaundryservice-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "washwashlaundryservice",
+    "storage_bucket": "washwashlaundryservice.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853527211626:android:e031066442ee9f5989e413",
+        "android_client_info": {
+          "package_name": "com.example.washwashlaundryservice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKDaPSfTnQS2glfT_FoJgv99FC5cVZS2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
