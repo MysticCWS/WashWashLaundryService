@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    android:layout_marginTop="5dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgCar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/imglogo" />
+
+    <TextView
+        android:id="@+id/otpMachine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgCar"
+        android:padding="6dp"
+        android:hint="OTP MACHINE"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/washerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otpMachine"
+        android:layout_toEndOf="@id/imgCar"
+        android:padding="6dp"
+        android:text="Washer  :"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/washerOption"
+        android:layout_below="@+id/otpMachine"
+        android:layout_toEndOf="@id/washerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="NONE"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/dryerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/washerOption1"
+        android:layout_toEndOf="@id/imgCar"
+        android:padding="6dp"
+        android:text="Dryer     :"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/dryerOption"
+        android:layout_below="@+id/washerOption1"
+        android:layout_toEndOf="@id/dryerOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text ="NONE"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/foldOption1"
+        android:layout_below="@id/dryerOption1"
+        android:layout_toEndOf="@id/imgCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Fold    :"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/foldOption"
+        android:layout_below="@+id/dryerOption1"
+        android:layout_toEndOf="@id/foldOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text ="NONE"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
