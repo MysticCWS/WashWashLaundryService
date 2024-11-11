@@ -285,7 +285,7 @@
                 android:layout_below="@+id/totalLaundry"
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="#F9B300"
+                android:backgroundTint="#0A5078"
                 android:text="checkout"
                 android:textAllCaps="false"
                 android:textColor="@color/white"

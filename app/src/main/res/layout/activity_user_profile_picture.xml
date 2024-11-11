@@ -43,7 +43,7 @@
             android:layout_height="35dp"
             android:layout_alignParentRight="true"
             android:background="@drawable/imgback"
-            android:backgroundTint="#F9B300" />
+            android:backgroundTint="#2596be" />
 
         <TextView
             android:id="@+id/text"

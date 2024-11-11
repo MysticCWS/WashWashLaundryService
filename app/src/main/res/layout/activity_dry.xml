@@ -60,7 +60,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/imgback"
-                android:backgroundTint="#F9B300"
+                android:backgroundTint="#2596be"
                 android:onClick="onBackButtonClick" />
 
             <!-- Dry Information Section -->
