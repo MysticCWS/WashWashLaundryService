@@ -46,7 +46,7 @@ public class Dry extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dry);
 
-        //navigation bottom
+        //Navigation bottom
         BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
