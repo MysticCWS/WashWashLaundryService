@@ -28,7 +28,7 @@ public class WashDryFold extends AppCompatActivity {
     private int selectedDryerPrice = 0;
     private int selectedFoldPrice = 0;
 
-    // Prices for each option (adjust as needed)
+    // Prices for each option
     private final int washer15KgPrice = 5;
     private final int washer20KgPrice = 7;
     private final int washer30KgPrice = 10;
