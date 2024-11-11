@@ -50,7 +50,7 @@ public class SignIN extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(SignIN.this, "You can register now", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignIN.this, "Fill in all details to register.", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(SignIN.this, SignUP.class));
             }
         });
@@ -118,7 +118,7 @@ public class SignIN extends AppCompatActivity {
                                     }
                                 } else {
                                     // Handle if user data doesn't exist
-                                    Toast.makeText(SignIN.this, "user data doesn't exist", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(SignIN.this, "User data doesn't exist", Toast.LENGTH_LONG).show();
                                 }
                             }
 
@@ -130,7 +130,7 @@ public class SignIN extends AppCompatActivity {
                     }
                 } else {
                     // Handle login failure
-                    Toast.makeText(SignIN.this, "Failed Logged in", Toast.LENGTH_LONG).show();
+                    Toast.makeText(SignIN.this, "Failed to Log in", Toast.LENGTH_LONG).show();
                 }
                 progressBar.setVisibility(View.GONE);
             }

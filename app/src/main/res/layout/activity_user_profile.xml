@@ -272,7 +272,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:background="@android:color/transparent"
-                        android:text="Change Profile"
+                        android:text="Edit Your Profile"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
                         android:textSize="17sp"

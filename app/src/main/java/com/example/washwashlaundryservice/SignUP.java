@@ -50,7 +50,7 @@ public class SignUP extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(SignUP.this, "You can login now", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignUP.this, "Please login.", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(SignUP.this, SignIN.class));
             }
         });
@@ -119,7 +119,7 @@ public class SignUP extends AppCompatActivity {
                             if (task.isSuccessful()){
 
                                 Toast.makeText(SignUP.this, " User registered successfully", Toast.LENGTH_LONG).show();
-                                //open user profile after succes
+                                //open user profile after success
                                 Intent intent = new Intent (SignUP.this, HomePage.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);

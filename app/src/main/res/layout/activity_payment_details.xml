@@ -189,7 +189,7 @@
                     android:layout_marginTop="50dp"
                     android:letterSpacing="0.03"
                     android:padding="6dp"
-                    android:text="OTP FOR YOU MACHINE"
+                    android:text="OTP FOR LAUNDRY MACHINE"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />

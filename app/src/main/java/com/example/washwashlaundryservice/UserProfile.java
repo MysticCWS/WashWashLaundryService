@@ -92,7 +92,7 @@ public class UserProfile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 authProfile.signOut();
-                Toast.makeText(UserProfile.this, "Logged Out", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UserProfile.this, "Logged Out Successfully", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(UserProfile.this, SignIN.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
@@ -122,7 +122,7 @@ public class UserProfile extends AppCompatActivity {
         uploadpicture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(UserProfile.this, "You update your picture now!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UserProfile.this, "Update profile picture", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(UserProfile.this, UserProfilePicture.class));
 
             }
@@ -134,7 +134,7 @@ public class UserProfile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(UserProfile.this, "You update your detail now!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UserProfile.this, "Update profile details", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(UserProfile.this, UserProfileUpdate.class));
 
             }
@@ -185,7 +185,7 @@ public class UserProfile extends AppCompatActivity {
                 genderUser.setText(gender);
                 phoneUser.setText(phone);
 
-                welcomeName.setText("Hai " + name + "!");
+                welcomeName.setText("Hi " + name + "!");
                 nameUser.setText(name);
                 emailUser.setText(email);
 
@@ -208,7 +208,6 @@ public class UserProfile extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         // Do something when back button is pressed
-        // You can call finish() to close the current activity
         super.onBackPressed();
     }
 }
