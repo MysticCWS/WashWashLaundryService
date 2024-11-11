@@ -88,7 +88,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@+id/textView_upload_pic_choose_button"
-            android:backgroundTint="#FFB300"
+            android:backgroundTint="#2596be"
             android:text="Done"
             android:textAllCaps="false"
             android:textColor="#FFF"
