@@ -50,7 +50,7 @@ public class WashDryFold extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wash_dry_fold);
 
-        //navigation bottom
+        //Navigation bottom
         BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

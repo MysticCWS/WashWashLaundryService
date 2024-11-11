@@ -30,7 +30,7 @@ public class Dry extends AppCompatActivity {
 
     private int selectedDryerPrice = 0;
 
-    // Prices for each option (adjust as needed)
+    // Prices for each option
     private final int dryer15KgPrice = 5;
     private final int dryer20KgPrice = 10;
     private final int dryer30KgPrice = 15;

@@ -31,7 +31,7 @@ public class WashDry extends AppCompatActivity {
     private int selectedWasherPrice = 0;
     private int selectedDryerPrice = 0;
 
-    // Prices for each option (adjust as needed)
+    //Prices for each option
     private final int washer15KgPrice = 5;
     private final int washer20KgPrice = 7;
     private final int washer30KgPrice = 10;
@@ -50,7 +50,7 @@ public class WashDry extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wash_dry);
 
-        //navigation bottom
+        //Navigation bottom
         BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
